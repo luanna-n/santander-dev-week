@@ -1,0 +1,20 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /bootcamp
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: postgres://tpaexoeuiskqcr:ffb1d2b9f778de82524ce159e053386f5f77cec9cfc8bd35b053bbd7e76b6ba5@ec2-3-91-127-228.compute-1.amazonaws.com:5432/d4f8ivh2kg904l
+    username: tpaexoeuiskqcr
+    password: ffb1d2b9f778de82524ce159e053386f5f77cec9cfc8bd35b053bbd7e76b6ba5
+  jpa:
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    generate-ddl: true
+    hibernate:
+      ddl-auto: none
+
+application:
+  description: Projeto Tela de Cotações do Santander
