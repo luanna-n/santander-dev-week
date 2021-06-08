@@ -7,3 +7,5 @@ Os instrutores foram o :man_technologist: Guilherme Revoredo e o :man_technologi
 - Para o backend foi usado Java no Intellij.
 
 - Para o banco de dados foi usado o Docker.
+
+- O front end foi feito usando o Angular.
